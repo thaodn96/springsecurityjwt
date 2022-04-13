@@ -17,4 +17,9 @@ public class MainController {
     public String home(){
         return "index";
     }
+
+    @RequestMapping("/api/test")
+    public String test(){
+        return "abc";
+    }
 }
